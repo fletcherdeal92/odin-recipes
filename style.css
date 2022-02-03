@@ -1,0 +1,52 @@
+* {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: teal;
+    text-align: center;
+}
+
+h2 {
+    color: burlywood;
+    font-weight: 300;
+}
+
+ul {
+    list-style: square;
+}
+
+ul.nav {
+    padding: 10px;
+    background-color: antiquewhite;
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+ul.nav > li {
+    display: inline-block;
+    padding: 10px;
+    background: antiquewhite;
+}
+
+ul.nav > li:hover {
+    background: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100vw;
+    height: auto;
+}
+
+ol {
+    list-style: upper-roman;
+}
+
+ol > li {
+    padding: 10px 0 10px 0;
+}
